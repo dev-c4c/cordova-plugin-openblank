@@ -1,56 +1,16 @@
 {
-  "name": "cordova-plugin-inappbrowser",
-  "version": "1.4.1-dev",
-  "description": "Cordova InAppBrowser Plugin",
+    "name": "cordova-plugin-openblank",
+  "version": "0.0.2",
   "cordova": {
-    "id": "cordova-plugin-inappbrowser",
+    "id": "cordova-plugin-openblank",
     "platforms": [
-      "android",
-      "amazon-fireos",
-      "ubuntu",
-      "ios",
-      "wp7",
-      "wp8",
-      "windows8",
-      "windows",
-      "firefoxos"
+      "ios", 
+      "android"
     ]
   },
+  "description": "Cordova plugin for opening external links in iframe in browser",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apache/cordova-plugin-inappbrowser"
+    "url": "git://github.com/dev-c4c/cordova-plugin-openblank.git"
   },
-  "keywords": [
-    "cordova",
-    "in",
-    "app",
-    "browser",
-    "inappbrowser",
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-amazon-fireos",
-    "cordova-ubuntu",
-    "cordova-ios",
-    "cordova-wp7",
-    "cordova-wp8",
-    "cordova-windows8",
-    "cordova-windows",
-    "cordova-firefoxos"
-  ],
-  "scripts": {
-    "test": "npm run jshint",
-    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests"
-  },
-  "engines": {
-    "cordovaDependencies": {
-      "0.2.3": {
-        "cordova": ">=3.1.0"
-      }
-    }
-  },
-  "author": "Apache Software Foundation",
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "jshint": "^2.6.0"
-  }
 }
